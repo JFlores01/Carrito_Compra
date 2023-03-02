@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+
+}
+
+form {
+    background-color: lightgreen;
+    padding: 90px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+label, input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+button{
+       background-color: lightcyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
